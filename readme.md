@@ -6,9 +6,12 @@ Script desarrollado en Python 3.8.17 y win32printing 0.1.3
 
 Script para la impresión de documentos en formato PDF en impresora por defecto instalada en el equipo destino
 
+
 ## Instalación
 
-Clonar proyecto desde GitHub, dentro de la unidad C:
+Crear carpeta en disco "C" con nombre "Python"
+
+Clonar proyecto desde GitHub, dentro de la unidad C:\Python
 ```bash
 git clone https://github.com/fredybarrera/Python-Print.git
 ```
@@ -27,4 +30,11 @@ Navegar hasta la ubicación del proyecto e instalar las dependencias:
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Configuracion .bat
+Editar archivo "Run_Script.bat" y reemplazar la ruta de instalacion de miniconda y el nombre del entorno virtual creado
+
+```bash
+"C:\Users\Fredys Barrera\miniconda3\envs\test\python.exe" "C:\Python\main.py" %1 %2
 ```
