@@ -1,0 +1,120 @@
+2023-08-03 11:49:41 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 11:50:48 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 11:59:40 -- Failed main (Traceback (most recent call last):
+  File "C:\Python\main.py", line 26, in main
+    fileName = sys.argv[1]
+IndexError: list index out of range
+)
+---------------------------------------------------------------- 
+2023-08-03 12:06:41 -- Failed main (Traceback (most recent call last):
+  File "C:\Python\main.py", line 26, in main
+    fileName = sys.argv[1]
+IndexError: list index out of range
+)
+---------------------------------------------------------------- 
+2023-08-03 12:08:59 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 12:12:36 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 12:18:30 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 12:21:11 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 12:23:09 -- Failed main (Traceback (most recent call last):
+  File "C:\Python\main.py", line 51, in main
+    attributes['pDevMode'].Copies = int(copies)
+ValueError: invalid literal for int() with base 10: '/p'
+)
+---------------------------------------------------------------- 
+2023-08-03 12:24:11 -- Failed main (Traceback (most recent call last):
+  File "c:/Python/main.py", line 26, in main
+    fileName = sys.argv["u"]
+TypeError: list indices must be integers or slices, not str
+)
+---------------------------------------------------------------- 
+2023-08-03 12:24:51 -- Failed main (Traceback (most recent call last):
+  File "c:/Python/main.py", line 26, in main
+    fileName = sys.argv["u"]
+TypeError: list indices must be integers or slices, not str
+)
+---------------------------------------------------------------- 
+2023-08-03 12:26:10 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 12:55:15 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 12:57:26 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 13:03:57 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 13:04:51 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 13:06:35 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 13:08:46 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 13:11:29 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
+2023-08-03 14:39:45 -- Failed win32print.SetPrinter (Traceback (most recent call last):
+  File "C:\Python\main.py", line 56, in main
+    win32print.SetPrinter(handle, level, attributes, 0)
+pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
+)
+---------------------------------------------------------------- 
