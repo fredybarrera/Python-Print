@@ -1,0 +1,36 @@
+int exitCode;
+
+string ipAddress = "127.0.0.1";
+string filePrint = "test1.pdf";
+string numberOfCopies = "1";
+
+string batFilePath = String.Format(@"\\{0}\\c$\\Python\\Run_Script.bat", ipAddress);
+string arguments = String.Format("/C {0} {1} {2}", batFilePath, filePrint, numberOfCopies);
+
+ProcessStartInfo processInfo;
+Process process;
+
+processInfo = new ProcessStartInfo("cmd.exe");
+processInfo.Arguments = arguments;
+processInfo.UseShellExecute = false;
+
+// *** Redirect the output ***
+processInfo.RedirectStandardError = true;
+processInfo.RedirectStandardOutput = true;
+
+process = Process.Start(processInfo);
+
+// *** Read the streams ***
+// Warning: This approach can lead to deadlocks, see Edit #2
+string output = process.StandardOutput.ReadToEnd();
+string error = process.StandardError.ReadToEnd();
+
+exitCode = process.ExitCode;
+
+Console.WriteLine("output>>" + (String.IsNullOrEmpty(output) ? "(none)" : output));
+Console.WriteLine("error>>" + (String.IsNullOrEmpty(error) ? "(none)" : error));
+Console.WriteLine("ExitCode: " + exitCode.ToString(), "ExecuteCommand");
+
+
+process.WaitForExit();
+process.Close();
