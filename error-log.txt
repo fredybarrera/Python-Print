@@ -118,3 +118,9 @@ pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
 pywintypes.error: (5, 'SetPrinter', 'Acceso denegado.')
 )
 ---------------------------------------------------------------- 
+2023-08-03 14:47:18 -- Failed main (Traceback (most recent call last):
+  File "c:/Python/main.py", line 51, in main
+    attributes['pDevMode'].Copies = int(copies)
+ValueError: invalid literal for int() with base 10: 'test1.pdf'
+)
+---------------------------------------------------------------- 
